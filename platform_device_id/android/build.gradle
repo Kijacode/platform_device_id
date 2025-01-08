@@ -33,6 +33,15 @@ android {
     defaultConfig {
         minSdkVersion 23
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_20
+        targetCompatibility JavaVersion.VERSION_20
+    }
+    
+    kotlinOptions {
+        jvmTarget = '20'
+    }
     
 }
 
