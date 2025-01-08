@@ -2,7 +2,7 @@ group 'com.di1shuai.platform_device_id'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.8.10'
+    ext.kotlin_version = '1.9.10'
     repositories {
         google()
         jcenter()
@@ -33,11 +33,10 @@ android {
     defaultConfig {
         minSdkVersion 23
     }
-    lintOptions {
-        disable 'InvalidPackage'
-    }
+    
 }
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
+
