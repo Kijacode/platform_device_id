@@ -34,7 +34,7 @@ android {
         minSdkVersion 23
     }
 
-    compileOptions {
+  compileOptions {
         sourceCompatibility JavaVersion.VERSION_20
         targetCompatibility JavaVersion.VERSION_20
     }
